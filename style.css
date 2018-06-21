@@ -20,15 +20,18 @@
 }
 
 .sol {
+	width: 100%;
 	border: 1px solid #d6d6c2;
 	background-color: #f5f5f0;
 }
 
 .columna {
+	width: 50%;
 	display: inline-block;
 	width: 40%;
 	padding-right: 100px;
 }
+
 
 .columna2 {
 	display: inline-block;
@@ -37,6 +40,30 @@
 }
 
 .columna3 {
+	display: inline-block;
+	width: 40%;
+	padding-right: 100px;
+}
+
+.columna4 {
+	display: inline-block;
+	width: 40%;
+	padding-right: 100px;
+}
+
+.columna5 {
+	display: inline-block;
+	width: 40%;
+	padding-right: 100px;
+}
+
+.columna6 {
+	display: inline-block;
+	width: 40%;
+	padding-right: 100px;
+}
+
+.columna7 {
 	display: inline-block;
 	width: 40%;
 	padding-right: 100px;
