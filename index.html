@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head> 
 <body>
-	<form action="" method="post">
+	<form action="#" method="post">
 		<div class="boton">
 			<center>
 			<button type="button">Acceder al formulario</button><p>
@@ -14,24 +14,26 @@
 	</div>
 		<section class="cont">
 		<div class="sol">
+			<header>
 			<label for="date">Fecha de solicitud</label><p>
 			<input type="date" name="solicitud">
+		</header>
 		</div>
-		<div class="columna">
+		<div class="columna"><p>
 			<label for="name">Nombre Completo</label><p>
 			<input type="name" name="nombre" placeholder="Pepito Pérez"></div>
 			<div class="columna">
 			<label for="date">Fecha de nacimiento</label><P>
         	<input type="date" name="date">
 		</div>
-		<div class="columna2">
+		<div class="columna">
 			<label for="mail">Correo Electronico</label><p>
 			<input type="email" name="mail" placeholder="alguien@ejemplo.com">
 		</div>
-		<div class="columna2">
+		<div class="columna">
 		<label for="tel">Telefono</label><P>
         		<input type="tel" name="telefono" placeholder="5557776"></div>
-		<div>
+		<div class="columna2">
 			Seleccione su género:
 			<input type="radio" name="hombre">
 			<label for="hombre">Hombre</label>
@@ -40,7 +42,7 @@
 			<input type="radio" name="otro">
 			<label for="otro">Otro</label>
 		</div>
-		<P><div class="columna3">
+		<P><div class="columna">
 			<label for="departamento">Departamento</label><P>
 			<select>
 				<option>Amazonas</option>
@@ -78,7 +80,7 @@
 				<option>Vichada</option>
 				</select>
 		</div>
-		<div class="columna3">
+		<div class="columna">
 			<label for="ciudad">Ciudad</label><P>
 			<select> 
 			<option value="1">Abriaqui</option>
@@ -1182,11 +1184,11 @@
 	<option value="1099">Úmbita</option>
 			</select>
 		</div>
-		<div>
+		<div class="columna">
 			<label for="text">Dirección</label><P>
 			<input type="text" name="direccion" placeholder="Carrera 22 #22c-22">
 		</div>
-		<div>
+		<div class="columna2">
 Seleccione el tipo de domicilio:
 
 			<input type="radio" name="casa">
@@ -1198,54 +1200,54 @@ Seleccione el tipo de domicilio:
 <input type="radio" name="otro">
 </div>
 <p>
-<section>
+<section class="columna4">
 <label for="text">Especifique "otro"</label><p>
 <input type="text" name="text">
 </section>
-<section class="columna4">
+<section class="columna">
 		<label for="number">Número de integrantes del domicilio</label><p>
 		<input type="number" min="1"name="text">
 </section>
-<div class="columna4">
+<div class="columna">
         <label for="text">¿Por qué quieres adoptar una mascota?</label><P>
         <input type="text" name="texto">
 </div>
-<div class="columna5">
-¿Tienes experiencia con los animales?<P>
+<div class="columna3">
+¿Tienes experiencia con los animales?
 			<input type="radio" name="si">
 			<label for="si">Si</label>
 			<input type="radio" name="no">
 			<label for="no">No</label>
 </div>
-<div class="columna5">
-        		¿Tienes otras mascotas?<P>
+<div class="columna3">
+        		¿Tienes otras mascotas?
         		<input type="radio" name="si">
         		<label for="si">Si</label>
         		<input type="radio" name="no">
         		<label for="no">No</label>
         	</div>
-	<div class="columna6">
+        	<p>
+	<div class="columna">
 			<label for="number">¿Cuales son tus ingresos mensuales?</label><p>
 			<input type="number" min="0" placeholder="$500.000">
 	</div>
-	<div class="columna6">
+	<div class="columna">
         	<label for="number">¿Cuantos ingresos dispones para tu mascota?</label><p>
         	<input type="number" min="0" placeholder="$200.000">
 	</div>
-	<div class="columna7">
+	<div class="columna">
 		<label for="text">¿Cuanto tiempo piensas dedicarle a tu mascota?</label><P>
 		<input type="text">
         </div> 	
-        		<div class="columna7">
+        		<div class="columna">
         		<label for="text">En caso de estar ausente por un tiempo ¿quién cuidará de tu mascota?</label><P>
         		<input type="text">
         	</div>
-        <div class="botones">
-        	<button type="button">Guardar</button>
-        </div>
-        <div class="boton">
+        	<div class="botones">
+        	<button type="button">Guardar</button></div>
+        	<footer class="botones">
         	<button type="button">Botón de respuestas</button>
-        </div>
+        </footer>
         </form>
     </body>
     </html>
