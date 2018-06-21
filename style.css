@@ -1,0 +1,23 @@
+.boton button {
+	background-color: #0066ff;
+	padding: 6px 15px;
+	border-radius: 4px;
+	color: #fff
+}
+
+.cont {
+	margin: 6rem;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.cont input {
+	border-radius: 4px;
+	border: 1px solid #d6d6c2;
+}
+
+.sol {
+	border: 1px solid #d6d6c2;
+	background-color: #f5f5f0;
+}
+
