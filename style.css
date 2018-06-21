@@ -1,12 +1,14 @@
 .boton button {
+	color: #fff;
+	font-family: calibri;
 	background-color: #0066ff;
 	padding: 6px 15px;
 	border-radius: 4px;
-	color: #fff
 	font-weight: bold;
 }
 
 .cont {
+	font-family: calibri; 
 	margin: 6rem;
 	border-radius: 5px;
 	border: 1px solid gray;
@@ -54,12 +56,5 @@
 	padding: 8px 10px;
 }
 
-.boton button {
-	font-weight: bold;
-	color: #fff;
-	background-color: #0066ff;
-	border: 1px solid #0066ff;
-	border-radius: 5px;
-	padding: 8px 10px;
-}
+
 
