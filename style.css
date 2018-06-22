@@ -1,3 +1,7 @@
+.boton {
+	margin-top: 2rem;
+}
+
 .boton button {
 	color: #fff;
 	background-color: #0066ff;
@@ -7,7 +11,8 @@
 }
 
 .cont {
-	margin: 6rem;
+	margin-left: 6rem;
+	margin-right: 6rem;
 	border-radius: 5px;
 	border: 1px solid gray;
 }
@@ -18,7 +23,7 @@
 }
 
 .sol {
-	width: 99%;
+	width: 98.98%;
 	border: 1px solid #d6d6c2;
 	background-color: #f5f5f0;
 	margin: 0;
