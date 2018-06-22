@@ -89,5 +89,18 @@
 	padding: 8px 10px;
 }
 
+button {
+	font-weight: bold;
+	color: #fff;
+	background-color: #0066ff;
+	border: 1px solid #0066ff;
+	border-radius: 5px;
+	padding: 8px 10px;
+}
+
+.botoncito {
+	margin-top: 1rem;
+	margin-left: -1rem;
+}
 
 
