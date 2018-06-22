@@ -35,16 +35,17 @@
         		<input type="tel" name="telefono" placeholder="5557776"></div>
 		<div class="columna2">
 			Seleccione su género:
-			<input type="radio" name="hombre">
-			<label for="hombre">Hombre</label>
-			<input type="radio" name="mujer">
-			<label for="mujer">Mujer</label>
+			<input type="radio" name="masculino">
+			<label for="masculino">Masculino</label>
+			<input type="radio" name="femenino">
+			<label for="femenino">Femenino</label>
 			<input type="radio" name="otro">
 			<label for="otro">Otro</label>
 		</div>
 		<P><div class="columna">
 			<label for="departamento">Departamento</label><P>
-			<select>
+			<select class="columna">
+				<option value="" disabled selected>Selecciona un Departamento</option>
 				<option>Amazonas</option>
 				<option>Antioquia</option>
 				<option>Arauca</option>
@@ -82,7 +83,8 @@
 		</div>
 		<div class="columna">
 			<label for="ciudad">Ciudad</label><P>
-			<select> 
+			<select>
+				<option value="" disabled selected>Seleccione una Ciudad</option>
 			<option value="1">Abriaqui</option>
 	<option value="2">Acacías</option>
 	<option value="3">Acandí</option>
@@ -1198,6 +1200,7 @@ Seleccione el tipo de domicilio:
 			<input type="radio" name="finca">
 			<label for="finca">Finca</label>
 <input type="radio" name="otro">
+<label for="otro">Otro</label>
 </div>
 <p>
 <section class="columna4">
