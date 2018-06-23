@@ -80,13 +80,17 @@
 	padding: 8px;
 }
 
-.botones button {
+button {
 	font-weight: bold;
 	color: #fff;
 	background-color: #0066ff;
 	border: 1px solid #0066ff;
 	border-radius: 5px;
 	padding: 8px 10px;
+}
+
+.final {
+	margin-left: 4rem;
 }
 
 
